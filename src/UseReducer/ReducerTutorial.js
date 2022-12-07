@@ -14,6 +14,10 @@ const reducer = (state, action) => {
 const ReducerTutorial = () => {
   // const [count, setCount] = useState(0);
   // const [showText, setShowText] = useState(true);
+  
+  /**
+   * Reducer use when you want to changes multiple state in one click better using use reducer.
+   */
   const [state, dispatch] = useReducer(reducer, {
     count: 0, showText: true
   })

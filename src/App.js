@@ -1,9 +1,13 @@
 import "./App.css";
-import LayoutEffectTutorial from "./UseLayoutEffect/LayoutEffectTutorial";
+import UseCallbackTutorial from "./UseCallback/UseCallbackTutorial";
 // import StateTutorial from "./UseState/StateTutorial";
 // import ReducerTutorial from "./UseReducer/ReducerTutorial";
-// import EffectTutorial from "./UseEffect/EffectTutorial";
 // import RefTutorial from "./UseRef/RefTutorial";
+// import EffectTutorial from "./UseEffect/EffectTutorial";
+// import LayoutEffectTutorial from "./UseLayoutEffect/LayoutEffectTutorial";
+// import ImperativeHandle from "./UseImperativeHandle/ImperativeHandle";
+// import ContextTutorial from "./UseContext/ContextTutorial";
+// import MemoTutorial from "./UseMemo/MemoTutorial";
 
 function App() {
   return (
@@ -12,7 +16,11 @@ function App() {
     {/* <ReducerTutorial/> */}
     {/* <EffectTutorial/> */}
     {/* <RefTutorial/> */}
-    <LayoutEffectTutorial/>
+    {/* <LayoutEffectTutorial/> */}
+    {/* <ImperativeHandle/> */}
+    {/* <ContextTutorial/> */}
+    {/* <MemoTutorial/> */}
+    <UseCallbackTutorial/>
    </div> 
   );
 }
